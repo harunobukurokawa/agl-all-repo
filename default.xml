@@ -13,10 +13,6 @@
   <!-- defaults -->
   <default remote="agl" sync-j="4" revision="master"/>
 
-
-  <!-- CORE -->
-  <!-- use agl revisions/branches here -->
-
   <!-- AGL things. -->
   <project name="AGL/AGL-repo" path="AGL/AGL-repo" />
   <project name="AGL/docker-worker-generator" path="AGL/docker-worker-generator" remote="aglgit"/>
@@ -35,5 +31,21 @@
 
   <!-- AGL APPS -->
   <project name="apps/agl-cluster-demo-dashboard" path="apps/agl-cluster-demo-dashboard" />
+  <project name="apps/agl-cluster-demo-gauges" path="apps/agl-cluster-demo-gauges" />
+  <!--
+  <project name="apps/" path="apps/" />
+  -->
 
+  <!-- AGL SOURCE -->
+  <project name="src/4a-alsa-core" path="src/4a-alsa-core" />
+  <!--
+  <project name="src/" path="src/" />
+  -->
+
+  <!-- AGL STAGING-->
+  <project name="staging/basesystem" path="staging/basesystem" />
+  <!--
+  <project name="staging/" path="staging/" />
+  -->
+  
 </manifest>
