@@ -33,6 +33,7 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="AGL/meta-renesas-rcar-gen3" />
   <project name="AGL/releng-scripts" path="AGL/releng-scripts" />
 
-  <!-- UPSTREAM COMPONENTS -->
+  <!-- AGL APPS -->
+  <project name="apps/agl-cluster-demo-dashboard" path="apps/agl-cluster-demo-dashboard" />
 
 </manifest>
