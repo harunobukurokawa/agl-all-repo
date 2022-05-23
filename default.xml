@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remote servers to query -->
+  <remote name="agl"
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+         review="https://gerrit.automotivelinux.org/gerrit/"
+         pushurl="ssh://gerrit.automotivelinux.org:29418"
+  />
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="aglgit" fetch="https://git.automotivelinux.org/" />
+
+  <!-- defaults -->
+  <default remote="agl" sync-j="4" revision="master"/>
+
+
+  <!-- CORE -->
+  <!-- use agl revisions/branches here -->
+
+  <!-- AGL things. -->
+  <project name="AGL/AGL-repo" path="AGL/AGL-repo" />
+  <project name="AGL/docker-worker-generator" path="AGL/docker-worker-generator" remote="aglgit"/>
+  <project name="AGL/documentation" path="AGL/documentation" />
+  <project name="AGL/lava-docker" path="AGL/lava-docker" />
+  <project name="AGL/meta-agl" path="AGL/meta-agl" />
+  <project name="AGL/meta-agl-cluster-demo" path="AGL/meta-agl-cluster-demo" />
+  <project name="AGL/meta-agl-demo" path="AGL/meta-agl-demo" />
+  <project name="AGL/meta-agl-devel" path="AGL/meta-agl-devel" />
+  <project name="AGL/meta-agl-extra" path="AGL/meta-agl-extra" />
+  <project name="AGL/meta-agl-refhw" path="AGL/meta-agl-refhw" />
+  <project name="AGL/meta-agl-telematics-demo" path="AGL/meta-agl-telematics-demo" />
+  <project name="AGL/meta-renesas" path="AGL/meta-renesas" />
+  <project name="AGL/meta-renesas-rcar-gen3" path="AGL/meta-renesas-rcar-gen3" />
+  <project name="AGL/releng-scripts" path="AGL/releng-scripts" />
+
+  <!-- UPSTREAM COMPONENTS -->
+
+</manifest>
