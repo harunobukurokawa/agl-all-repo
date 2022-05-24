@@ -32,20 +32,208 @@
   <!-- AGL APPS -->
   <project name="apps/agl-cluster-demo-dashboard" path="apps/agl-cluster-demo-dashboard" />
   <project name="apps/agl-cluster-demo-gauges" path="apps/agl-cluster-demo-gauges" />
+  <project name="apps/agl-cluster-demo-receiver" path="apps/agl-cluster-demo-receiver" />
+  <project name="apps/agl-qt-cluster-demo-receiver" path="apps/agl-qt-cluster-demo-receiver" />
+  <project name="apps/agl-service-audio-4a" path="apps/agl-service-audio-4a" />
+  <project name="apps/agl-service-audiomixer" path="apps/agl-service-audiomixer" />
+  <project name="apps/agl-service-bluetooth" path="apps/agl-service-bluetooth" />
+  <project name="apps/agl-service-bluetooth-map" path="apps/agl-service-bluetooth-map" />
+  <project name="apps/agl-service-bluetooth-pbap" path="apps/agl-service-bluetooth-pbap" />
+  <project name="apps/agl-service-can-high-level-viwi" path="apps/agl-service-can-high-level-viwi" />
+  <project name="apps/agl-service-can-low-level" path="apps/agl-service-can-low-level" />
+  <project name="apps/agl-service-cloudproxy" path="apps/agl-service-cloudproxy" />
+  <project name="apps/agl-service-data-persistence" path="apps/agl-service-data-persistence" />
+  <project name="apps/agl-service-geoclue" path="apps/agl-service-geoclue" />
+  <project name="apps/agl-service-geofence" path="apps/agl-service-geofence" />
+  <project name="apps/agl-service-gps" path="apps/agl-service-gps" />
+  <project name="apps/agl-service-gstreamer" path="apps/agl-service-gstreamer" />
+  <project name="apps/agl-service-harvester" path="apps/agl-service-harvester" />
+  <project name="apps/agl-service-helloworld" path="apps/agl-service-helloworld" />
+  <project name="apps/agl-service-homescreen" path="apps/agl-service-homescreen" />
+<project name="apps/agl-service-homescreen-2017" path="apps/agl-service-homescreen-2017" />
+<project name="apps/agl-service-hvac" path="apps/agl-service-hvac" />
+<project name="apps/agl-service-identity-agent" path="apps/agl-service-identity-agent" />
+<project name="apps/agl-service-iiodevices" path="apps/agl-service-iiodevices" />
+<project name="apps/agl-service-inputmethod" path="apps/agl-service-inputmethod" />
+<project name="apps/agl-service-mediaplayer" path="apps/agl-service-mediaplayer" />
+<project name="apps/agl-service-mediascanner" path="apps/agl-service-mediascanner" />
+<project name="apps/agl-service-navigation" path="apps/agl-service-navigation" />
+<project name="apps/agl-service-network" path="apps/agl-service-network" />
+<project name="apps/agl-service-nfc" path="apps/agl-service-nfc" />
+<project name="apps/agl-service-platform-info" path="apps/agl-service-platform-info" />
+<project name="apps/agl-service-poi" path="apps/agl-service-poi" />
+<project name="apps/agl-service-radio" path="apps/agl-service-radio" />
+<project name="apps/agl-service-signal-composer" path="apps/agl-service-signal-composer" />
+<project name="apps/agl-service-soundmanager" path="apps/agl-service-soundmanager" />
+<project name="apps/agl-service-soundmanager-2017" path="apps/agl-service-soundmanager-2017" />
+<project name="apps/agl-service-speech" path="apps/agl-service-speech" />
+<project name="apps/agl-service-steering-wheel" path="apps/agl-service-steering-wheel" />
+<project name="apps/agl-service-taskmanager" path="apps/agl-service-taskmanager" />
+<project name="apps/agl-service-telephony" path="apps/agl-service-telephony" />
+<project name="apps/agl-service-unicens" path="apps/agl-service-unicens" />
+<project name="apps/agl-service-unicens-controller" path="apps/agl-service-unicens-controller" />
+<project name="apps/agl-service-voice-high" path="apps/agl-service-voice-high" />
+<project name="apps/agl-service-voice-high-capabilities" path="apps/agl-service-voice-high-capabilities" />
+<project name="apps/agl-service-weather" path="apps/agl-service-weather" />
+<project name="apps/agl-service-wifi" path="apps/agl-service-wifi" />
+<project name="apps/agl-service-windowmanager" path="apps/agl-service-windowmanager" />
+<project name="apps/agl-service-windowmanager-2017" path="apps/agl-service-windowmanager-2017" />
+<project name="apps/agl-service-xds-monitoring" path="apps/agl-service-xds-monitoring" />
+<project name="apps/agl-telematics-demo-recorder" path="apps/agl-telematics-demo-recorder" />
+<project name="apps/alexa-viewer" path="apps/alexa-viewer" />
+<project name="apps/als-meter-demo" path="apps/als-meter-demo" />
+<project name="apps/app-afb-helpers-submodule" path="apps/app-afb-helpers-submodule" />
+<project name="apps/app-afb-test" path="apps/app-afb-test" />
+<project name="apps/app-controller-submodule" path="apps/app-controller-submodule" />
+<project name="apps/app-templates" path="apps/app-templates" />
+<project name="apps/aroundview" path="apps/aroundview" />
+<project name="apps/camera-gstreamer" path="apps/camera-gstreamer" />
+<project name="apps/chromium" path="apps/chromium" />
+<project name="apps/controls" path="apps/controls" />
+<project name="apps/dashboard" path="apps/dashboard" />
+<project name="apps/demo3-camera" path="apps/demo3-camera" />
+<project name="apps/demo3-dashboard" path="apps/demo3-dashboard" />
+<project name="apps/demo3-homescreen" path="apps/demo3-homescreen" />
+<project name="apps/demo3-hvac" path="apps/demo3-hvac" />
+<project name="apps/demo3-launcher" path="apps/demo3-launcher" />
+<project name="apps/demo3-settings" path="apps/demo3-settings" />
+<project name="apps/demo3-tachometer" path="apps/demo3-tachometer" />
+<project name="apps/demo3-warehouse" path="apps/demo3-warehouse" />
+<project name="apps/homescreen" path="apps/homescreen" />
+<project name="apps/homescreen-demo-ci" path="apps/homescreen-demo-ci" />
+<project name="apps/html5-background" path="apps/html5-background" />
+<project name="apps/html5-dashboard" path="apps/html5-dashboard" />
+<project name="apps/html5-homescreen" path="apps/html5-homescreen" />
+<project name="apps/html5-hvac" path="apps/html5-hvac" />
+<project name="apps/html5-launcher" path="apps/html5-launcher" />
+<project name="apps/html5-mediaplayer" path="apps/html5-mediaplayer" />
+<project name="apps/html5-mixer" path="apps/html5-mixer" />
+<project name="apps/html5-settings" path="apps/html5-settings" />
+<project name="apps/hvac" path="apps/hvac" />
+<project name="apps/launcher" path="apps/launcher" />
+<project name="apps/low-level-can-service" path="apps/low-level-can-service" />
+<project name="apps/mediaplayer" path="apps/mediaplayer" />
+<project name="apps/messaging" path="apps/messaging" />
+<project name="apps/mixer" path="apps/mixer" />
+<project name="apps/navigation" path="apps/navigation" />
+<project name="apps/ondemandnavi" path="apps/ondemandnavi" />
+<project name="apps/onscreenapp" path="apps/onscreenapp" />
+<project name="apps/phone" path="apps/phone" />
+<project name="apps/poi-yelp" path="apps/poi-yelp" />
+<project name="apps/radio" path="apps/radio" />
+<project name="apps/restriction-screen" path="apps/restriction-screen" />
+<project name="apps/settings" path="apps/settings" />
+<project name="apps/settings-bluetooth" path="apps/settings-bluetooth" />
+<project name="apps/settings-log-utils" path="apps/settings-log-utils" />
+<project name="apps/settings-wifi" path="apps/settings-wifi" />
+<project name="apps/taskmanager" path="apps/taskmanager" />
+<project name="apps/tbtnavi" path="apps/tbtnavi" />
+<project name="apps/videoplayer" path="apps/videoplayer" />
+<project name="apps/waltham-receiver" path="apps/waltham-receiver" />
   <!--
   <project name="apps/" path="apps/" />
   -->
 
   <!-- AGL SOURCE -->
   <project name="src/4a-alsa-core" path="src/4a-alsa-core" />
+  <project name="src/4a-hal-community" path="src/4a-hal-community" />
+  <project name="src/4a-hal-configs" path="src/4a-hal-configs" />
+  <project name="src/4a-hal-generic" path="src/4a-hal-generic" />
+  <project name="src/4a-hal-reference" path="src/4a-hal-reference" />
+  <project name="src/4a-hal-unicens" path="src/4a-hal-unicens" />
+  <project name="src/4a-hal-utilities" path="src/4a-hal-utilities" />
+  <project name="src/4a-softmixer" path="src/4a-softmixer" />
+  <project name="src/4a-tools" path="src/4a-tools" />
+  <project name="src/agl-compositor" path="src/agl-compositor" />
+  <project name="src/agl-js-api" path="src/agl-js-api" />
+  <project name="src/agl-shell-activator" path="src/agl-shell-activator" />
+  <project name="src/app-framework-binder" path="src/app-framework-binder" />
+  <project name="src/app-framework-demo" path="src/app-framework-demo" />
+  <project name="src/app-framework-host-utilities" path="src/app-framework-host-utilities" />
+  <project name="src/app-framework-main" path="src/app-framework-main" />
+  <project name="src/applaunchd" path="src/applaunchd" />
+  <project name="src/avirt" path="src/avirt" />
+  <project name="src/bluez-glib" path="src/bluez-glib" />
+  <project name="src/can-lin" path="src/can-lin" />
+  <project name="src/cluster-refgui" path="src/cluster-refgui" />
+  <project name="src/cmake-apps-module" path="src/cmake-apps-module" />
+  <project name="src/connman-glib" path="src/connman-glib" />
+  <project name="src/cynagoauth" path="src/cynagoauth" />
+  <project name="src/cynagora" path="src/cynagora" />
+  <project name="src/demo3-qtquickcontrols" path="src/demo3-qtquickcontrols" />
+  <project name="src/demo3-warehouse-server" path="src/demo3-warehouse-server" />
+  <project name="src/drm-lease-manager" path="src/drm-lease-manager" />
+  <project name="src/homescreen-demo-ci" path="src/homescreen-demo-ci" />
+  <project name="src/homescreenappframeworkbinderagl" path="src/homescreenappframeworkbinderagl" />
+  <project name="src/hvacplugin" path="src/hvacplugin" />
+  <project name="src/inputeventmanager" path="src/inputeventmanager" />
+  <project name="src/libafb-helpers" path="src/libafb-helpers" />
+  <project name="src/libagl-compositor" path="src/libagl-compositor" />
+  <project name="src/libaglnavigation" path="src/libaglnavigation" />
+  <project name="src/libappcontroller" path="src/libappcontroller" />
+  <project name="src/libavirt" path="src/libavirt" />
+  <project name="src/libcloudproxy" path="src/libcloudproxy" />
+  <project name="src/libcluster-api" path="src/libcluster-api" />
+  <project name="src/libcluster-ipc" path="src/libcluster-ipc" />
+  <project name="src/libhomescreen" path="src/libhomescreen" />
+  <project name="src/libqtappfw" path="src/libqtappfw" />
+  <project name="src/libqthomescreen" path="src/libqthomescreen" />
+  <project name="src/libqtsoundmanager" path="src/libqtsoundmanager" />
+  <project name="src/libqtwindowmanager" path="src/libqtwindowmanager" />
+  <project name="src/libsoundmanager" path="src/libsoundmanager" />
+  <project name="src/libwindowmanager" path="src/libwindowmanager" />
+  <project name="src/low-level-can-generator" path="src/low-level-can-generator" />
+  <project name="src/most" path="src/most" />
+  <project name="src/nss-localuser" path="src/nss-localuser" />
+  <project name="src/pipewire-ic-ipc" path="src/pipewire-ic-ipc" />
+  <project name="src/pulseaudio-module-4a" path="src/pulseaudio-module-4a" />
+  <project name="src/pyagl" path="src/pyagl" />
+  <project name="src/qa-test-misc" path="src/qa-test-misc" />
+  <project name="src/qa-testdefinitions" path="src/qa-testdefinitions" />
+  <project name="src/qtaglextras" path="src/qtaglextras" />
+  <project name="src/qtquickcontrols2-agl" path="src/qtquickcontrols2-agl" />
+  <project name="src/qtquickcontrols2-agl-style" path="src/qtquickcontrols2-agl-style" />
+  <project name="src/unicens" path="src/unicens" />
+  <project name="src/vod-server" path="src/vod-server" />
+  <project name="src/waltham-transmitter-plugin" path="src/waltham-transmitter-plugin" />
+  <project name="src/weston-ivi-plugins" path="src/weston-ivi-plugins" />
+  <project name="src/windowmanager" path="src/windowmanager" />
+  <project name="src/xds/xds-agent" path="src/xds/xds-agent" />
+  <project name="src/xds/xds-cli" path="src/xds/xds-cli" />
+  <project name="src/xds/xds-common" path="src/xds/xds-common" />
+  <project name="src/xds/xds-docs" path="src/xds/xds-docs" />
+  <project name="src/xds/xds-gdb" path="src/xds/xds-gdb" />
+  <project name="src/xds/xds-server" path="src/xds/xds-server" />
   <!--
   <project name="src/" path="src/" />
   -->
 
   <!-- AGL STAGING-->
+  <project name="staging/AudioManagerPlugins" path="staging/AudioManagerPlugins" />
+  <project name="staging/HomeScreen" path="staging/HomeScreen" />
+  <project name="staging/agl-audio-plugin" path="staging/agl-audio-plugin" />
+  <project name="staging/agl-inputmethod-qt-plugin" path="staging/agl-inputmethod-qt-plugin" />
+  <project name="staging/agl-jta-results" path="staging/agl-jta-results" />
   <project name="staging/basesystem" path="staging/basesystem" />
+  <project name="staging/homescreen-2017" path="staging/homescreen-2017" />
+  <project name="staging/libsoundmanager" path="staging/libsoundmanager" />
+  <project name="staging/libwindowmanager" path="staging/libwindowmanager" />
+  <project name="staging/most-can-demo-bin" path="staging/most-can-demo-bin" />
+  <project name="staging/new-apps" path="staging/new-apps" />
+  <project name="staging/qlibhomescreen" path="staging/qlibhomescreen" />
+  <project name="staging/qlibsoundmanager" path="staging/qlibsoundmanager" />
+  <project name="staging/qlibwindowmanager" path="staging/qlibwindowmanager" />
+  <project name="staging/qtmultimedia-rtlfm-radio-plugin" path="staging/qtmultimedia-rtlfm-radio-plugin" />
+  <project name="staging/rba" path="staging/rba" />
+  <project name="staging/rba-tool" path="staging/rba-tool" />
+  <project name="staging/release-upload" path="staging/release-upload" />
+  <project name="staging/soundmanager" path="staging/soundmanager" />
+  <project name="staging/tizen-application-manager" path="staging/tizen-application-manager" />
+  <project name="staging/toyota" path="staging/toyota" />
+  <project name="staging/windowmanager" path="staging/windowmanager" />
+  <project name="staging/xdg-launcher" path="staging/xdg-launcher" />
   <!--
   <project name="staging/" path="staging/" />
   -->
-  
+
 </manifest>
