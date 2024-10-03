@@ -15,7 +15,6 @@
 
   <!-- AGL things. -->
   <project name="AGL/AGL-repo" path="AGL/AGL-repo" />
-  <project name="AGL/docker-worker-generator" path="AGL/docker-worker-generator" remote="aglgit"/>
   <project name="AGL/documentation" path="AGL/documentation" />
   <project name="AGL/lava-docker" path="AGL/lava-docker" />
   <project name="AGL/meta-agl" path="AGL/meta-agl" />
